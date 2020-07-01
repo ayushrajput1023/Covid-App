@@ -1,0 +1,26 @@
+.countryname{
+  background-color: #e0dede;
+}
+th{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+td{
+  color: black;
+}
+.changesize{
+  font-weight: bold;
+}
+.rowcolor{
+  background-color: #363636;
+}
+.total{
+  font-size: 20px;
+}
+.textcolor{
+  color: white;
+}
+.rowcolor:hover{
+  background-color: red;
+}

@@ -1,0 +1,31 @@
+<table class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th>Country  </th>
+      <th>Total Confirmed </th>
+      <th>New Confirmed</th>
+        <th>New Deaths</th>
+      <th>Total Deaths   </th>
+      <th>Total Recovered  </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let x of allcountrydata" class="countryname">
+      <td class="changesize">{{x.Country}}</td>
+      <td>{{x.TotalConfirmed}}</td>
+      <td>{{x.NewConfirmed}}</td>
+      <td>{{x.NewDeaths}}</td>
+      <td>{{x.TotalDeaths}}</td>
+      <td>{{x.TotalRecovered}}</td>
+    </tr>
+    <tr class="rowcolor">
+      <td class="textcolor total" style="font-weight:'bold'">Total</td>
+      <td class="textcolor">{{summarydata.TotalConfirmed}}</td>
+      <td class="textcolor">{{summarydata.NewConfirmed}}</td>
+      <td class="textcolor">{{summarydata.NewDeaths}}</td>
+      <td class="textcolor">{{summarydata.TotalDeaths}}</td>
+      <td class="textcolor">{{summarydata.TotalRecovered}}</td>
+    </tr>
+
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+
+.points{
+  text-align: center;
+  margin-top: 3rem;
+  background-color: black;
+  border-radius: 10px;
+}
+mat-vertical-stepper{
+    background-color: #ff6363;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+ol{
+  display: inline-block;
+text-align: left;
+}
+h6{
+  font-weight: bold;
+}
+mat-icon{
+  font-size: 70px;
+}

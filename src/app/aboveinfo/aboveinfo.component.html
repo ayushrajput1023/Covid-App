@@ -1,0 +1,76 @@
+<div class="container points">
+  <mat-icon style="color:'white'" color="warn">record_voice_over</mat-icon>
+  <h1 style="font-weight:'bold'">STAY HOME. SAVE LIVES.</h1>
+  <p style="font-weight:'bold'">Help stop coronavirus</p>
+  <ol>
+    <li><span style="color:'red';font-weight:'bold'">STAY</span> home</li>
+    <li><span style="color:'red';font-weight:'bold'">KEEP</span> a safe distance</li>
+    <li><span style="color:'red';font-weight:'bold'">WASH</span> hands often</li>
+    <li><span style="color:'red';font-weight:'bold'">COVER</span> your cough</li>
+    <li><span style="color:'red';font-weight:'bold'">SICK?</span> Call the helpline given at the end</li>
+  </ol>
+</div>
+
+<div class="container">
+<mat-vertical-stepper>
+  <mat-step label="Symptoms">
+      <h6>Most common symptoms:</h6>
+      <ul>
+        <li>fever</li>
+        <li>dry cough</li>
+        <li>tiredness</li>
+      </ul>
+      <br>
+      <h6>Less common symptoms:</h6>
+      <ul>
+        <li>aches and pains</li>
+        <li>sore throat</li>
+        <li>diarrhoea</li>
+        <li>conjunctivitis</li>
+        <li>headache</li>
+        <li>loss of taste or smell</li>
+        <li>a rash on skin, or discolouration of fingers or toes</li>
+      </ul>
+      <br>
+      <h6>Serious symptoms:</h6>
+      <ul>
+        <li>difficulty breathing or shortness of breath</li>
+        <li>chest pain or pressure</li>
+        <li>loss of speech or movement</li>
+      </ul>
+      <br>
+      <p>Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.</p>
+      <p>People with mild symptoms who are otherwise healthy should manage their symptoms at home.</p>
+      <p>On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.</p>
+      <button mat-raised-button color="primary" matStepperNext style="float:'right'">Next</button>
+  </mat-step>
+  <mat-step label="Treatments">
+    <h6>Self-care</h6>
+    <p>If you feel sick you should rest, drink plenty of fluid, and eat nutritious food. Stay in a separate room from other family members, and use a dedicated bathroom if possible. Clean and disinfect frequently touched surfaces.</p>
+    <p>Everyone should keep a healthy lifestyle at home. Maintain a healthy diet, sleep, stay active, and make social contact with loved ones through the phone or internet. Children need extra love and attention from adults during difficult times. Keep to regular routines and schedules as much as possible.</p>
+    <p>It is normal to feel sad, stressed, or confused during a crisis. Talking to people you trust, such as friends and family, can help. If you feel overwhelmed, talk to a health worker or counsellor.</p>
+    <br>
+    <h6>Medical treatments</h6>
+    <p>If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice.</p>
+    <p>Seek medical care if you have a fever, a cough, and difficulty breathing. Call in advance.</p>
+    <button mat-raised-button color="primary" matStepperPrevious type="button" name="button">Back</button>
+    <button mat-raised-button color="primary" matStepperNext style="float:'right'" >Next</button>
+
+  </mat-step>
+  <mat-step label="Prevention">
+    <h6>To prevent the spread of COVID-19:</h6>
+    <ul>
+      <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
+      <li>Maintain a safe distance from anyone who is coughing or sneezing.</li>
+      <li>Wear a mask when physical distancing is not possible.</li>
+      <li>Don’t touch your eyes, nose or mouth.</li>
+      <li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
+      <li>Stay home if you feel unwell.</li>
+      <li>If you have a fever, cough and difficulty breathing, seek medical attention.</li>
+    </ul>
+    <h6>Masks</h6>
+    <p>Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.</p>
+    <button mat-raised-button color="primary" matStepperPrevious type="button" name="button">Back</button>
+  </mat-step>
+</mat-vertical-stepper>
+</div>

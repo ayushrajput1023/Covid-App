@@ -1,0 +1,13 @@
+.footerdiv{
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.iconcolor{
+  margin: 20px;
+  font-size: 20px;
+}
+.iconcolor:hover{
+  color:#D92027;
+}

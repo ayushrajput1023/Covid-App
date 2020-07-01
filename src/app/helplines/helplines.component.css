@@ -1,0 +1,12 @@
+mat-divider{
+  border-top-color:black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2{
+  color: #fa1616;
+}
+
+a:hover{
+  color: yellow;
+}
